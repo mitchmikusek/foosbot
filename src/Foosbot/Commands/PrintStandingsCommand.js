@@ -62,6 +62,7 @@ class PrintStandingsCommand extends FoosbotCommand {
       return {
         rank: i + 1,
         name: player.name || "unknown",
+        league: player.league || ":globe:",
         W: player.ranking.wins,
         L: player.ranking.losses,
         ELO: player.ranking.elo.toFixed(1),
@@ -76,6 +77,7 @@ class PrintStandingsCommand extends FoosbotCommand {
         return {
           rank: i + 1,
           name: player.name || "unknown",
+          league: player.league || ":globe:",
           W: player.seasons[seasonId].wins,
           L: player.seasons[seasonId].losses,
           ELO: player.seasons[seasonId].elo.toFixed(1),
