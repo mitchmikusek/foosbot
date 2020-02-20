@@ -5,12 +5,18 @@ Slack bot to track foosball matches and ratings
 
 ### record
 ```bash
-# @foosbot record :goat: < @user @user > :whale: < @user @user >
+# @foosbot record :goat: <(@user)+> :whale: <(@user)+> [series <(g|w)+>]
 
-# Record a single match
+# Record a single match 1v1
 @foosbot record 🐐 @mikusem 🐳 @foosbot
 
-# Record a Series of Wins for (g)oats and (w)hales
+# Record a single match 2v2
+@foosbot record 🐐 @mikusem @wilsoni 🐳 @foosbot @cervanf
+
+# Record a single match uneven teams
+@foosbot record 🐐 @mikusem 🐳 @foosbot @cervanf @wilsoni @weye
+
+# Record a Series of Wins for any team of (g)oats vs (w)hales
 @foosbot record 🐐 @mikusem 🐳 @foosbot series ggwg
 ```
 
@@ -48,4 +54,3 @@ Slack bot to track foosball matches and ratings
 # Sync your Slack Name and new primary league
 @foosbot update league 🍥
 ```
-
