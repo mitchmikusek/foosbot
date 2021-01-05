@@ -17,7 +17,7 @@
   "dependencies": {
     "@google-cloud/firestore": "3.4.1",
     "@slack/bolt": "^1.6.0",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "console.table": "0.10.0",
     "moment": "^2.24.0",
     "uuid": "3.4.0"
