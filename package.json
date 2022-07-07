@@ -19,7 +19,7 @@
     "@slack/bolt": "^1.6.0",
     "axios": "0.19.2",
     "console.table": "0.10.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "uuid": "3.4.0"
   },
   "engines": {
